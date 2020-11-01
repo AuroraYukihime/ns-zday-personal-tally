@@ -1,7 +1,7 @@
 # Filename:    tally.py
 # Author:      Aurora Yukihime of Albrook (AuroraYukhime)
 # Date:        1 November 2020
-# Version:     1.0
+# Version:     1.1
 # Description: Caveman's first N-Day personal tally. Valid for about 5 days after N-Day before your national happenings disappear.
 #              SEE COMMENT BLOCK BEGINNING WITH "Edit these fields" FOR PROPER OPERATION
 
@@ -52,7 +52,7 @@ else:
 if totCures>1:
         print("Cured " + str(totCures) + " billion")
 else:
-        print("Cured " + str(curess) + " million")
+        print("Cured " + str(cures) + " million")
         
 if totInfes>1:
         print("Infected " + str(totInfes) + " billion")
