@@ -10,8 +10,8 @@ import re
 # Edit these fields
 # For nation: Enter your nation name with exact capitalization. I made this at 1am before a workday, sorry! ^^
 # For data: See cureData1.txt and cureData2.txt for samples of acceptable National Happenings (page=activity) snips
-nation = "Hina Kagiyama"
-data = open("cureData2.txt")
+nation = "Albrook"
+data = open("cureData1.txt")
 
 lines = data.read().splitlines()
 
@@ -55,6 +55,6 @@ else:
         print("Cured " + str(curess) + " million")
         
 if totInfes>1:
-        print("Killed " + str(totInfes) + " billion")
+        print("Infected " + str(totInfes) + " billion")
 else:
-        print("Killed " + str(infes) + " million")
+        print("Infected " + str(infes) + " million")
