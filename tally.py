@@ -1,5 +1,5 @@
 # Filename:    tally.py
-# Author:      Aurora Yukihime of Albrook (aurorayukhime)
+# Author:      Aurora Yukihime of Albrook (AuroraYukhime)
 # Date:        1 November 2020
 # Version:     1.0
 # Description: Caveman's first N-Day personal tally. Valid for about 5 days after N-Day before your national happenings disappear.
